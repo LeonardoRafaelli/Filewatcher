@@ -59,7 +59,8 @@ public partial class MainPage : ContentPage
             {
                 Text = $"{folderFile}{e.ChangeType} - {currentDateTime}",
                 FontSize = 14,
-                HorizontalOptions = LayoutOptions.Start
+                HorizontalOptions = LayoutOptions.Start,
+                TextColor = Color.FromRgb(32,32,32)
             };
 
             myLayout.Children.Add(label);
