@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="20, 50, 20, 20"
+            VerticalOptions="Start">
+
+            <FlexLayout JustifyContent="SpaceBetween">
+                <VerticalStackLayout HorizontalOptions="Start" FlexLayout.Basis="45%">
+                    <HorizontalStackLayout Spacing="80">
+                        <HorizontalStackLayout Spacing="20" VerticalOptions="End">
+                            <Button
+                                x:Name="openFileExplorerBtn"
+                                Text="Select file"
+                                WidthRequest="120"
+                                BackgroundColor="#00579d"
+                                SemanticProperties.Hint="Selects a file from the file explorer"
+                                ToolTipProperties.Text="Selects a file from the file explorer"
+                                Clicked="OnSelectFileClicked"
+                                />
+                            
+                            <HorizontalStackLayout>
+                                <CheckBox ToolTipProperties.Text="Pick a folder" Color="#00579d" CheckedChanged="OnCheckBoxClicked"/>
+                                <Label FontSize="10" Text="Pick a folder" VerticalOptions="Center"/>
+                            </HorizontalStackLayout>
+                        </HorizontalStackLayout>
+                        
+                        <Button 
+                            Text="Settings"
+                            BackgroundColor="#898989"
+                            Clicked="OnShowSettingsClicked"/>
+                    </HorizontalStackLayout>
+                    
+                    <VerticalStackLayout
+                        x:Name="fileDetails"
+                        HeightRequest="250"
+                        WidthRequest="400"
+                        BackgroundColor="#EEE"
+                        Margin="0, 20"
+                        Padding="10">
+                        
+                        <HorizontalStackLayout HorizontalOptions="Center">
+                            <Label
+                            FontSize="18"
+                            Text="File details" />
+                        </HorizontalStackLayout>
+                        <VerticalStackLayout Spacing="15" Margin="0, 10, 0, 0">
+                            <VerticalStackLayout>
+                                <Label Text="File Name" FontAttributes="Bold"/>
+                                <Label x:Name="fileDetailName"/>
+                            </VerticalStackLayout>
+                            <VerticalStackLayout>
+                                <Label Text="File Type" FontAttributes="Bold"/>
+                                <Label x:Name="fileDetailType"/>
+                            </VerticalStackLayout>
+                            <VerticalStackLayout>
+                                <Label Text="Folder Path" FontAttributes="Bold"/>
+                                <Label x:Name="fileDetailFolderPath"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout>
+                        <Button Text="Notify me" BackgroundColor="#00579d" Clicked="OnNotifyClicked"/>
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+
+
+                <VerticalStackLayout FlexLayout.Basis="45%" HorizontalOptions="Start">
+                    <HorizontalStackLayout Spacing="20">
+                        <Label Text="Watching..."/>
+                        <Image
+                            Source="loading_icon.png"
+                            HorizontalOptions="Center"
+                            HeightRequest="20"
+                            x:Name="loadingIcon"
+                            />
+                    </HorizontalStackLayout>
+
+                    <ScrollView x:Name="monitorScroll" WidthRequest="400" VerticalScrollBarVisibility="Always" BackgroundColor="#EEE" HeightRequest="250" Margin="0, 20">
+                        <VerticalStackLayout
+                                HorizontalOptions="StartAndExpand"
+                                x:Name="myLayout"
+                                Padding="20"
+                                Spacing="8"
+                                >
+
+                        </VerticalStackLayout>
+                    </ScrollView>
+
+                    <HorizontalStackLayout HorizontalOptions="End">
+                        <Button
+                        x:Name="monitorBtn"
+                        Text="Start Watcher"
+                        BackgroundColor="#A9A9A9"
+                        SemanticProperties.Hint="Starts monitoring the selected file"
+                        Clicked="StartStopMonitor"
+                        HorizontalOptions="Center" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </FlexLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
