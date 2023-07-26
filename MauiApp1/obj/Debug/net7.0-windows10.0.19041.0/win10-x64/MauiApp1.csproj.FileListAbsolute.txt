@@ -331,3 +331,4 @@ C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Debug\net7.0-wind
 C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
 C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
 C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Speech.dll
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-100.png

@@ -9,7 +9,6 @@ using Microsoft.Maui.Controls;
 using Microsoft.Maui.Storage;
 using Serilog;
 
-
 public partial class MainPage : ContentPage
 {
 
@@ -19,6 +18,10 @@ public partial class MainPage : ContentPage
     private FileSystemWatcher watcher;
     private string fileName, fileFullPath, contentType;
     private bool isWatchFolder;
+    // Setting options
+    private bool isPremium = false;
+    private string basepath;
+
     public string InputText { get; set; } = "";
     public MainPage()
     {
@@ -70,8 +73,42 @@ public partial class MainPage : ContentPage
     }
     // ----
 
+    private async void OnShowSettingsClicked(Object sender, EventArgs e)
+    {
+        string setBasepath = "Set Basepath";
+        string bePremium = "Be Premium";
+        string premiumPassword = "teste";
+
+        string settingAction =  await DisplayActionSheet("Settings", null, "OK", setBasepath, bePremium);
+        
+        if(settingAction == bePremium)
+        {
+            if(!isPremium)
+            {
+                string passResult = await DisplayPromptAsync("Be Premium", "Enter the password:");
+
+                if(passResult == premiumPassword)
+                {
+                    loadingIcon.Source = "gold_loading_icon.png";
+                    isPremium = true;
+                } else
+                {
+                    await DisplayAlert("Wrong Password!", "You may talk to MR. Hollm", "OK");
+                }
+            } else
+            {
+                await DisplayAlert("Be Premium", "You're already Premium", "OK");
+            }
+        }
+
+        if(settingAction == setBasepath)
+        {
+            string basepathResult = await DisplayPromptAsync("Set Basepath", "Enter the basepath you want the file/folder picker to start from:", "OK");
+        }
+    }
+
     // Sets the selected file so then its possible to start monitoring
-    private async void OnSelectFileClicked(object sender, EventArgs e)
+    private async void OnSelectFileClicked(Object sender, EventArgs e)
     {
         if (isWatchFolder)
         {
@@ -80,22 +117,24 @@ public partial class MainPage : ContentPage
             if(folderResult.IsSuccessful)
             {
                 StopWatcher();
-                updateFileDetails(folderResult.Folder.Name, folderResult.Folder.Path, "folder");
+                UpdateFileDetails(folderResult.Folder.Name, folderResult.Folder.Path, "folder");
             }
         }
         else
         {
-            FileResult file = await FilePicker.PickAsync();
+            FileResult file = await FilePicker.PickAsync(new PickOptions {
+                PickerTitle = "Select file",
+            });
 
             if (file != null)
             {
                 StopWatcher();
-                updateFileDetails(file.FileName, file.FullPath, file.ContentType);
+                UpdateFileDetails(file.FileName, file.FullPath, file.ContentType);
             }
         }
     }
 
-    private void updateFileDetails(string fn, string ffp, string fct)
+    private void UpdateFileDetails(string fn, string ffp, string fct)
     {
         fileName = fn;
         fileFullPath = ffp;
@@ -107,11 +146,6 @@ public partial class MainPage : ContentPage
         SemanticScreenReader.Announce(fileDetailType.Text);
         fileDetailFolderPath.Text = isWatchFolder ? fileFullPath : Path.GetDirectoryName(fileFullPath);
         SemanticScreenReader.Announce(fileDetailFolderPath.Text);
-    }
-
-    private void OnShowSettingsClicked(object sender, EventArgs e)
-    {
-
     }
 
     private void OnCheckBoxClicked(object sender, CheckedChangedEventArgs e)
@@ -259,7 +293,7 @@ public partial class MainPage : ContentPage
         rotateCancelTokenSource?.Cancel();
     }
 
-    private async Task RotateImage(Image img, double deg, uint ms, CancellationToken ct)
+    private static async Task RotateImage(Image img, double deg, uint ms, CancellationToken ct)
     {
         while (!ct.IsCancellationRequested)
         {

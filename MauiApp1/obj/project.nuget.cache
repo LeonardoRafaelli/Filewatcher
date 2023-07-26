@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FA/ZEdZJlWQjPjZpqRjE6JTqIZk6/Dm4LvnIuiQWLNcKyNMIQChr4aFLjZXZf3dGraL31lxihAn5n3GoEeDa+w==",
+  "dgSpecHash": "6E9XF09u34ND97I/QIVFSKdYJD+6VJNSVQSizDMnrftKK4oL/+O9aQIrDGZhvnHE2t3Atfqkckena5ivDrTB5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\leona.RAFAELLINOTE\\source\\repos\\MauiApp1\\MauiApp1\\MauiApp1.csproj",
   "expectedPackageFiles": [
@@ -105,6 +105,7 @@
     "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.7.20.1\\xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
+    "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.9\\microsoft.netcore.app.crossgen2.win-x64.7.0.9.nupkg.sha512",
     "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.29\\microsoft.windows.sdk.net.ref.10.0.19041.29.nupkg.sha512",
     "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.9\\microsoft.aspnetcore.app.runtime.win-x64.7.0.9.nupkg.sha512",
     "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.9.nupkg.sha512",

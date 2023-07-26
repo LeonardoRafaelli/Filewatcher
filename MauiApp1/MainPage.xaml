@@ -22,20 +22,20 @@
                                 ToolTipProperties.Text="Selects a file from the file explorer"
                                 Clicked="OnSelectFileClicked"
                                 />
-                            
+
                             <HorizontalStackLayout>
                                 <CheckBox ToolTipProperties.Text="Pick a folder" Color="#00579d" CheckedChanged="OnCheckBoxClicked"/>
-                                <Label FontSize="10" Text="Pick a folder" TextColor="#222" VerticalOptions="Center"/>
+                                <Label FontSize="10" Text="Pick folder" TextColor="#222" VerticalOptions="Center"/>
                             </HorizontalStackLayout>
                         </HorizontalStackLayout>
-                        
+
                         <Button 
                             Text="Settings"
                             BackgroundColor="#898989"
                             TextColor="White"
                             Clicked="OnShowSettingsClicked"/>
                     </HorizontalStackLayout>
-                    
+
                     <VerticalStackLayout
                         x:Name="fileDetails"
                         HeightRequest="250"
@@ -43,14 +43,16 @@
                         BackgroundColor="#EEE"
                         Margin="0, 20"
                         Padding="10">
-                        
+
                         <HorizontalStackLayout HorizontalOptions="Center">
                             <Label
-                            FontSize="18"
-                            Text="File details" />
+                                FontSize="18"
+                                Text="File details"
+                                TextColor="#222"
+                                />
                         </HorizontalStackLayout>
                         <VerticalStackLayout Spacing="15" Margin="0, 10, 0, 0">
-                            <VerticalStackLayout>   
+                            <VerticalStackLayout>
                                 <Label Text="File Name" TextColor="#222" FontAttributes="Bold"/>
                                 <Label x:Name="fileDetailName" TextColor="#222"/>
                             </VerticalStackLayout>
@@ -76,10 +78,11 @@
                     <HorizontalStackLayout Spacing="20">
                         <Label Text="Watching..." TextColor="#222"/>
                         <Image
-                            Source="loading_icon.png"
-                            HorizontalOptions="Center"
-                            HeightRequest="20"
-                            x:Name="loadingIcon"
+                                Source="loading_icon.png"
+                                HeightRequest="20"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                x:Name="loadingIcon"
                             />
                     </HorizontalStackLayout>
 

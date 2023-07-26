@@ -49,6 +49,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\sync_icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\sync_icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Include="..\.editorconfig" Link=".editorconfig" />
 	</ItemGroup>
 
