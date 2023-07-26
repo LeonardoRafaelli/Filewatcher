@@ -322,3 +322,12 @@ C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-wi
 C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Release\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Release\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Release\net7.0-windows10.0.19041.0\win10-x64\Serilog.dll
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Release\net7.0-windows10.0.19041.0\win10-x64\Serilog.Sinks.File.dll
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Release\net7.0-windows10.0.19041.0\win10-x64\System.Speech.dll
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\gold_loading_icon.scale-100.png
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading_icon.scale-100.png
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\packard_bell.scale-100.png
+C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png

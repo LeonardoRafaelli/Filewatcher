@@ -586,6 +586,12 @@
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\R2R\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\R2R\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -663,6 +669,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\R2R\Serilog.dll">
+      <PackagePath>Serilog.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\R2R\Serilog.Sinks.File.dll">
+      <PackagePath>Serilog.Sinks.File.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\R2R\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\R2R\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
@@ -876,6 +891,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\gold_loading_icon.scale-100.png">
+      <PackagePath>gold_loading_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading_icon.scale-100.png">
+      <PackagePath>loading_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\packard_bell.scale-100.png">
+      <PackagePath>packard_bell.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Release\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
+      <PackagePath>settings.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
