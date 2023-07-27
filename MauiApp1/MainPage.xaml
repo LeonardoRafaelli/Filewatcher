@@ -24,7 +24,7 @@
                                 />
 
                             <HorizontalStackLayout>
-                                <CheckBox ToolTipProperties.Text="Pick a folder" Color="#00579d" CheckedChanged="OnCheckBoxClicked"/>
+                                <CheckBox x:Name="checkTest" ToolTipProperties.Text="Pick a folder" Color="#00579d" CheckedChanged="OnCheckBoxClicked"/>
                                 <Label FontSize="10" Text="Pick folder" TextColor="#222" VerticalOptions="Center"/>
                             </HorizontalStackLayout>
                         </HorizontalStackLayout>
@@ -67,23 +67,36 @@
                         </VerticalStackLayout>
                     </VerticalStackLayout>
 
-                    <HorizontalStackLayout>
-                        <Button Text="Notify me" TextColor="White" BackgroundColor="#00579d" Clicked="OnNotifyClicked"/>
+                    <HorizontalStackLayout x:Name="notificationLayout">
+                        <Label TextColor="Black" VerticalOptions="Center">Notify me</Label>
+                        <CheckBox x:Name="notifyMeCheckBox"  ToolTipProperties.Text="Notify me" Color="#00579d" CheckedChanged="OnCheckBoxNotifyMeClicked"/>
+                        <Label TextColor="Black" VerticalOptions="Center">At</Label>
+                        <CheckBox x:Name="notifyAtCheckBox" ToolTipProperties.Text="At" Color="#00579d" CheckedChanged="OnCheckBoxAtClicked"/>
+                       
                     </HorizontalStackLayout>
+                    <HorizontalStackLayout VerticalOptions="Center">
+                        <Label TextColor="Black" VerticalOptions="Center">after</Label>
+                        <Entry Keyboard="Numeric" Placeholder="Seconds" TextColor="Black" BackgroundColor="#EEE" HeightRequest="20" WidthRequest="80"
+                               Margin="10, 0, 10, 0" TextChanged="OnTextSecondChanged"/>
+                        <Label TextColor="Black" VerticalOptions="Center">seconds of no file changes</Label>
+                    </HorizontalStackLayout>
+
 
                 </VerticalStackLayout>
 
 
                 <VerticalStackLayout FlexLayout.Basis="45%" HorizontalOptions="Start">
-                    <HorizontalStackLayout Spacing="20">
-                        <Label Text="Watching..." TextColor="#222"/>
+                    <HorizontalStackLayout>
+                        <Label WidthRequest="80" VerticalOptions="Center" Margin="0, 0, 20, 0" Text="Watching..." x:Name="watchingTxt" TextColor="#222"/>
                         <Image
                                 Source="loading_icon.png"
+                                Margin="0, 0, 180, 0"
                                 HeightRequest="20"
                                 HorizontalOptions="Center"
                                 VerticalOptions="Center"
                                 x:Name="loadingIcon"
                             />
+                        <Button Text="Clean" Clicked="CleanShowOnScreen" BackgroundColor="#898989" HeightRequest="20"/>
                     </HorizontalStackLayout>
 
                     <ScrollView x:Name="monitorScroll" WidthRequest="400" VerticalScrollBarVisibility="Always" BackgroundColor="#EEE" HeightRequest="250" Margin="0, 20">
@@ -93,7 +106,6 @@
                                 Padding="20"
                                 Spacing="8"
                                 >
-
                         </VerticalStackLayout>
                     </ScrollView>
 
