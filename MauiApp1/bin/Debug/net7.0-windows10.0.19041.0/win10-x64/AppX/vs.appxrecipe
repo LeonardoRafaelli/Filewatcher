@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-27T19:49:33.381</Modified>
+      <Modified>2023-07-27T21:51:32.117</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
-      <Modified>2023-07-27T19:49:30.572</Modified>
+      <Modified>2023-07-27T21:51:28.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp1.exe</PackagePath>
-      <Modified>2023-07-27T19:49:30.594</Modified>
+      <Modified>2023-07-27T21:51:28.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -940,7 +940,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp1.deps.json">
       <PackagePath>MauiApp1.deps.json</PackagePath>
-      <Modified>2023-07-27T19:49:33.157</Modified>
+      <Modified>2023-07-27T21:51:31.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -84,22 +84,30 @@
 
                 </VerticalStackLayout>
 
-
-                <VerticalStackLayout FlexLayout.Basis="45%" HorizontalOptions="Start">
-                    <HorizontalStackLayout>
-                        <Label WidthRequest="80" VerticalOptions="Center" Margin="0, 0, 20, 0" Text="Watching..." x:Name="watchingTxt" TextColor="#222"/>
-                        <Image
-                                Source="loading_icon.png"
-                                Margin="0, 0, 180, 0"
-                                HeightRequest="20"
-                                HorizontalOptions="Center"
-                                VerticalOptions="Center"
-                                x:Name="loadingIcon"
-                            />
-                        <Button Text="Clean" Clicked="CleanShowOnScreen" BackgroundColor="#898989" HeightRequest="20"/>
+                <VerticalStackLayout FlexLayout.Basis="45%">
+                    <HorizontalStackLayout HorizontalOptions="End" Spacing="200">
+                        <HorizontalStackLayout>
+                            <Label WidthRequest="90" VerticalOptions="Center" Text="Watching..." x:Name="watchingTxt" TextColor="#222"/>
+                            <Image
+                                    Source="loading_icon.png"
+                                    Margin="0, 0, 20, 0"
+                                    HeightRequest="20"
+                                    WidthRequest="20"
+                                    VerticalOptions="Center"
+                                    x:Name="loadingIcon"
+                                />
+                        </HorizontalStackLayout>
+                        <Button Text="Clean" Clicked="CleanShowOnScreen" BackgroundColor="#898989" TextColor="White" HeightRequest="10"/>
                     </HorizontalStackLayout>
 
-                    <ScrollView x:Name="monitorScroll" WidthRequest="400" VerticalScrollBarVisibility="Always" BackgroundColor="#EEE" HeightRequest="250" Margin="0, 20">
+                    <ScrollView
+                        x:Name="monitorScroll"
+                        HorizontalOptions="End"
+                        VerticalScrollBarVisibility="Always"
+                        BackgroundColor="#EEE"
+                        HeightRequest="250"
+                        WidthRequest="400"
+                        Margin="0, 20">
                         <VerticalStackLayout
                                 HorizontalOptions="StartAndExpand"
                                 x:Name="myLayout"
@@ -120,6 +128,8 @@
                         HorizontalOptions="Center" />
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
+
+
             </FlexLayout>
 
         </VerticalStackLayout>
