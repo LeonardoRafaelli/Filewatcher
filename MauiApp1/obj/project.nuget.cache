@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FA/ZEdZJlWQjPjZpqRjE6JTqIZk6/Dm4LvnIuiQWLNcKyNMIQChr4aFLjZXZf3dGraL31lxihAn5n3GoEeDa+w==",
+  "dgSpecHash": "xpahP/diE9onc/a23/VCPXlB3RjECFd3yIb8i+w7F2HRkOs7oVoIq2kCmORicPyApPNhiOhiAarhpxHqm0ti8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leona.RAFAELLINOTE\\source\\repos\\MauiApp1\\MauiApp1\\MauiApp1.csproj",
+  "projectFilePath": "C:\\Users\\leona.RAFAELLINOTE\\Source\\Repos\\LeonardoRafaelli\\.net-filewatcher\\MauiApp1\\MauiApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\communitytoolkit.maui\\5.2.0\\communitytoolkit.maui.5.2.0.nupkg.sha512",
     "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\communitytoolkit.maui.core\\5.2.0\\communitytoolkit.maui.core.5.2.0.nupkg.sha512",

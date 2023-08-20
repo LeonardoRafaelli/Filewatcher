@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MauiApp1
-build_property.ProjectDir = C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\
+build_property.ProjectDir = C:\Users\leona.RAFAELLINOTE\Source\Repos\LeonardoRafaelli\.net-filewatcher\MauiApp1\
 
-[C:/Users/leona.RAFAELLINOTE/source/repos/MauiApp1/MauiApp1/App.xaml]
+[C:/Users/leona.RAFAELLINOTE/Source/Repos/LeonardoRafaelli/.net-filewatcher/MauiApp1/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/leona.RAFAELLINOTE/source/repos/MauiApp1/MauiApp1/AppShell.xaml]
+[C:/Users/leona.RAFAELLINOTE/Source/Repos/LeonardoRafaelli/.net-filewatcher/MauiApp1/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/leona.RAFAELLINOTE/source/repos/MauiApp1/MauiApp1/MainPage.xaml]
+[C:/Users/leona.RAFAELLINOTE/Source/Repos/LeonardoRafaelli/.net-filewatcher/MauiApp1/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/leona.RAFAELLINOTE/source/repos/MauiApp1/MauiApp1/Resources/Styles/Colors.xaml]
+[C:/Users/leona.RAFAELLINOTE/Source/Repos/LeonardoRafaelli/.net-filewatcher/MauiApp1/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/leona.RAFAELLINOTE/source/repos/MauiApp1/MauiApp1/Resources/Styles/Styles.xaml]
+[C:/Users/leona.RAFAELLINOTE/Source/Repos/LeonardoRafaelli/.net-filewatcher/MauiApp1/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

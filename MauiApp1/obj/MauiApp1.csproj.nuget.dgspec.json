@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leona.RAFAELLINOTE\\source\\repos\\MauiApp1\\MauiApp1\\MauiApp1.csproj": {}
+    "C:\\Users\\leona.RAFAELLINOTE\\Source\\Repos\\LeonardoRafaelli\\.net-filewatcher\\MauiApp1\\MauiApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leona.RAFAELLINOTE\\source\\repos\\MauiApp1\\MauiApp1\\MauiApp1.csproj": {
+    "C:\\Users\\leona.RAFAELLINOTE\\Source\\Repos\\LeonardoRafaelli\\.net-filewatcher\\MauiApp1\\MauiApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona.RAFAELLINOTE\\source\\repos\\MauiApp1\\MauiApp1\\MauiApp1.csproj",
+        "projectUniqueName": "C:\\Users\\leona.RAFAELLINOTE\\Source\\Repos\\LeonardoRafaelli\\.net-filewatcher\\MauiApp1\\MauiApp1.csproj",
         "projectName": "MauiApp1",
-        "projectPath": "C:\\Users\\leona.RAFAELLINOTE\\source\\repos\\MauiApp1\\MauiApp1\\MauiApp1.csproj",
+        "projectPath": "C:\\Users\\leona.RAFAELLINOTE\\Source\\Repos\\LeonardoRafaelli\\.net-filewatcher\\MauiApp1\\MauiApp1.csproj",
         "packagesPath": "C:\\Users\\leona.RAFAELLINOTE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona.RAFAELLINOTE\\source\\repos\\MauiApp1\\MauiApp1\\obj\\",
+        "outputPath": "C:\\Users\\leona.RAFAELLINOTE\\Source\\Repos\\LeonardoRafaelli\\.net-filewatcher\\MauiApp1\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

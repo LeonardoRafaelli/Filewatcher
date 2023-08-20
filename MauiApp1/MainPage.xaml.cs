@@ -89,6 +89,8 @@ public partial class MainPage : ContentPage
 
             await monitorScroll.ScrollToAsync(0, Double.MaxValue, animated: true);
         });
+        StartNotifyTimer();
+        //teste
     }
 
     private void CleanShowOnScreen(Object sender, EventArgs e)

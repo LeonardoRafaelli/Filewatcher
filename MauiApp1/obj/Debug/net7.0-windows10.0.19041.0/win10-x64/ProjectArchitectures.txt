@@ -1,1 +1,1 @@
-C:\Users\leona.RAFAELLINOTE\source\repos\MauiApp1\MauiApp1\MauiApp1.csproj;x64
+C:\Users\leona.RAFAELLINOTE\Source\Repos\LeonardoRafaelli\.net-filewatcher\MauiApp1\MauiApp1.csproj;x64
