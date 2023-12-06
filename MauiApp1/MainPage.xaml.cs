@@ -13,8 +13,6 @@ using System.Text.RegularExpressions;
 public partial class MainPage : ContentPage
 {
 
-
-
     private CancellationTokenSource rotateCancelTokenSource;
     private FileSystemWatcher watcher;
     private string fileName, fileFullPath, contentType;
@@ -22,13 +20,12 @@ public partial class MainPage : ContentPage
     private Timer watchingTxtTimer;
     private Timer notificationTimer;
     // Notification
-    private Entry mailEntry;
+    private readonly Entry mailEntry;
     private string email = "";
-    private int valueResetTimer, seconds;
+    private int seconds;
 
     // Setting options
     private bool isPremium = false;
-    private string basepath;
     private string premiumPassword = "root";
 
     public MainPage()
@@ -90,7 +87,7 @@ public partial class MainPage : ContentPage
             await monitorScroll.ScrollToAsync(0, Double.MaxValue, animated: true);
         });
         StartNotifyTimer();
-        //teste
+        
     }
 
     private void CleanShowOnScreen(Object sender, EventArgs e)
@@ -102,12 +99,10 @@ public partial class MainPage : ContentPage
     }
 
 
-    // ----
+   
 
     private async void OnShowSettingsClicked(Object sender, EventArgs e)
     {
-
-        //string setBasepath = "Set Basepath";
         string bePremium = "Be Premium";
         string resetPremium = "Reset Premium";
         string changePremiumPass = "Change Premium Password";
@@ -135,11 +130,6 @@ public partial class MainPage : ContentPage
                 await DisplayAlert("Be Premium", "You're already Premium", "OK");
             }
         }
-
-        //if (settingAction == setBasepath)
-        //{
-        //    string basepathResult = await DisplayPromptAsync("Set Basepath", "Enter the basepath you want the file/folder picker to start from:", "OK");
-        //}
 
         if (settingAction == resetPremium)
         {
@@ -452,7 +442,6 @@ public partial class MainPage : ContentPage
         if (int.TryParse(e.NewTextValue, out int result))
         {
             seconds = result * 1000;
-            valueResetTimer = seconds;
         }
         else
         {
@@ -465,9 +454,9 @@ public partial class MainPage : ContentPage
     {
         string smtpHost = "smtp.gmail.com";
         int smtpPort = 587;
-        string emailRemetente = "watcherfile@gmail.com"; // Substitua pelo seu e-mail do Gmail
-        string senhaRemetente = "pufmraajecqvscgf"; // Substitua pela sua senha do Gmail
-        string emailDestinatario = email; // Substitua pelo e-mail do destinatário
+        string emailRemetente = "watcherfile@gmail.com"; // Watcher file Gmail account
+        string senhaRemetente = "pufmraajecqvscgf";
+        string emailDestinatario = email; // User email
 
         string assunto = "Watcher notification";
         string filefolder = isWatchFolder ? "folder" : "file";
@@ -491,6 +480,7 @@ public partial class MainPage : ContentPage
         }
         catch (Exception ex)
         {
+            // Log if needed
         }
 
     }
