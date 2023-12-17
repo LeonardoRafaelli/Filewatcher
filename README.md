@@ -3,7 +3,7 @@
 **FileWatcher** is a cross-platform application built using [Maui](https://github.com/dotnet/maui) and designed to monitor changes in files or folders. The application provides a user-friendly interface to select and monitor a specific file or folder, offering real-time updates on changes and notifications.
 This application is destinated to the final project of the 'CS50 - Introduction to Computer Science' course.
 
-## Features
+## Features ✨
 
 - **File Monitoring:** Choose a file or folder to monitor for changes.
 - **Real-time Updates:** Receive instant updates on file/folder changes, including creations, deletions, and modifications.
@@ -12,16 +12,29 @@ This application is destinated to the final project of the 'CS50 - Introduction 
 - **Settings:** Reset premium status, and change premium passwords
 - **Intuitive UI:** User-friendly interface for a seamless monitoring experience.
 
-## Design
+## Design 📁
 
 During the development of the FileWatcher, I was studying software usability in the Information System Programming Apprenticeship course. Therefore, the hole design was a match of trying to make the most usable and user-friendly screen, applying my new knowledges, and learning how to code with .NET.
 
 - As I do like to move components around and find the best way to use it, we first created a prototype in Figma, than, we follow to the programming design with .xaml.
 - We choose to use only two colors, a blue (#00579D) in contrast with a **white**.
 
-## Files
+## Core Files 📄
+**AppShell.xaml.cs**
+Initializes the application.
 
-## Getting Started
+**AppShell.xaml**
+Contains the header of the application and the call for the main page only.
+
+**MainPage.xaml**
+Contains all the page layout, button function calls, icons, scroll control and their properties (here's where we have worked on to make the best layout we could).
+
+**MainPage.xaml.cs**
+This is the main file of the application, it controls everything that's happening on it.
+From opening your file explorer to sending you an email.
+
+
+## Getting Started ▶️
 
 1. **Select File or Folder:** Choose the file or folder you want to monitor using the provided interface.
 
@@ -35,4 +48,4 @@ During the development of the FileWatcher, I was studying software usability in 
 
 ## Support
 
-For any issues or questions, contact me at [leonardorafaelli@gmail.com](mailto:leonardorafaelli@gmail.com).
+For any issues or questions, please contact me at [leonardorafaelli@gmail.com](mailto:leonardorafaelli@gmail.com).
